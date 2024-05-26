@@ -11,6 +11,10 @@ p {
     font-size: xx-large;
 }
 
+a {
+    font-size: x-large;
+}
+
 .title {
     text-align: center;
     justify-content: center;
@@ -23,6 +27,7 @@ p {
     padding: 0.75rem;
     gap: 1rem;
 }
+
 
 .about-text {
     width: 45%;
@@ -41,4 +46,24 @@ p {
 img {
     width: 90%;
     height: auto;
+}
+
+.projects-section p {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.github-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    padding-top: 0rem;
+    gap: 2rem;
 }
