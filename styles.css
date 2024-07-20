@@ -32,7 +32,7 @@ code {
     padding: 15rem;
 }
 
-.about-me-section {
+.middle-section, .about-me-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,4 +48,20 @@ code {
     max-width: 650px;
     text-align: center;
     font-size: 20px;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
 }
